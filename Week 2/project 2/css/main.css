@@ -1,0 +1,93 @@
+body {
+	color: #838b8b;
+	background-color: #f6f9ed;
+	
+}
+p {
+	color: #838b8b;
+	line-height: 130%;
+}
+p#subtitle {
+	color: #eec900;
+	text-align: center;
+}
+/* text-based links */
+a:link{
+	color: #ff7f50;
+}
+a:visited{
+	color: #f08080;
+}
+a:hover{
+	color: #cd2626;
+}
+a:active{
+	color: #8b3e2f;
+}
+/* h1 uses a google font */
+h1 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 28px;
+	text-align: center;
+	color: #ffd700;
+}
+h2 {
+	font-weight: normal;
+	font-style: italic;
+	text-shadow: 1px 1px #a1a1a1;
+}
+/* so does h3 */
+h3 {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Crete Round', serif;
+}
+ul {
+	list-style-type: none; /* removes bullets */
+}
+div{
+	margin: 10px auto;
+	text-align: center;
+	clear: both;
+}
+div#heading{
+	height: 200px;
+	padding: 10px;
+	border: 1px;
+	margin: 20px auto;
+	background-color: #ee2c2c;
+	box-shadow: 8px 8px 32px #111111;
+}
+div#linklist{
+	width: 50%;
+	padding: 10px;
+	border: 1px;
+	background-color: rgba(250,100,0,0.3);
+}
+div#ingr{
+	margin: 1px auto;
+	width: 75%;
+	padding: 5px;
+	background-color: #fdf9ee;
+	border-radius: 8px;
+	box-shadow: 8px 8px 32px #111111;
+}
+div#linkl{
+	text-align: left;
+	width: 200px;
+}
+figure{
+	float: left; /* arranges horizontally */
+	margin: 15px;
+}
+/* image-based links */
+a.fig:hover{
+	display: block;
+	border: 2px solid #ff0000;
+}
+a.fig{
+	display: block;
+	border: 2px solid #000;
+}
+
+
