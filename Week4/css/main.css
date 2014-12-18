@@ -1,0 +1,180 @@
+
+
+body {
+    color: #838b8b;
+    background:  #f6f9ed url("../images/contemporary_china.png");
+
+}
+p {
+    color: #838b8b;
+    line-height: 130%;
+}
+p#subtitle {
+    color: #eec900;
+    text-align: center;
+}
+/* text-based links */
+a:link{
+    color: #ff7f50;
+}
+a:visited{
+    color: #f08080;
+}
+a:hover{
+    color: #cd2626;
+}
+a:active{
+    color: #8b3e2f;
+}
+/* h1 uses a google font */
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffd700;
+}
+h2 {
+    font-weight: normal;
+    font-style: italic;
+    text-shadow: 1px 1px #a1a1a1;
+}
+/* so does h3 */
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+}
+ul {
+    list-style-type: none; /* removes bullets */
+}
+div{
+    margin: 1% auto;
+    text-align: center;
+    overflow: auto; /*lots of floating stuffs so just to make sure, though i don't think it affects anything */
+}
+header{ /*top bar*/
+    height: 200px;
+    padding: 10px;
+    border: 1px;
+    margin: 1% auto;
+    background: #de2910 url("../images/Flag%202.png") no-repeat top left;
+    box-shadow: 8px 8px 32px #111111;
+}
+aside{
+    /* right column below*/
+    width: 15%;
+    padding: 10px;
+    border: 1px;
+    margin: 2%;
+    float: right;
+    background: rgba(255,100,100,0.4);
+    clear: right;
+}
+nav{ /* right column navigation*/
+    width: 15%;
+    padding: 10px;
+    border: 1px;
+    margin: 2%;
+    float: right;
+    clear: right;
+    background: -moz-linear-gradient(top,  rgba(255,92,92,0.8) 0%, rgba(249,236,234,0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,92,92,0.8)), color-stop(100%,rgba(249,236,234,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,92,92,0.8) 0%,rgba(249,236,234,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,92,92,0.8) 0%,rgba(249,236,234,0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,92,92,0.8) 0%,rgba(249,236,234,0.8) 100%);
+    background: linear-gradient(to bottom,  rgba(255,92,92,0.8) 0%,rgba(249,236,234,0.8) 100%); /* W3C */
+}
+article{
+    margin: 0.5% auto;
+    width: 75%;
+    padding: 5px;
+    background-color: #fdf9ee;
+    border-radius: 8px;
+    box-shadow: 8px 8px 32px #111111;
+}
+div#body{ /*left col*/
+    float: left;
+    width: 65%;
+    padding: 10px;
+    margin: 4%;
+    clear: left;
+}
+footer{
+    width: 100%;
+    float: left;
+    clear: both;
+    text-align: left;
+}
+figure{
+    float: left; /* arranges horizontally */
+    margin: 1%;
+}
+figure.left{
+    float: left;
+    margin: 1%;
+    clear: left; /* makes it so that two can occupy a line and the dimsum pic doesn't get caught on the sausage's odd height */
+}
+/* image-based links */
+a.fig:hover{
+    display: block;
+    border: 2px solid #ff0000;
+}
+a.fig{
+    display: block;
+    border: 2px solid #000;
+}
+table{
+    width: 100%;
+    padding: 2%;
+    font-size: 1em;
+    border: 2px solid #dc143c;
+    text-align: center;
+    background: rgba(255,100,100,0.4);
+    border-spacing: 0;
+    color: #888;
+}
+tr:hover{
+    background: rgba(255,95,95,0.5);
+}
+th{
+    text-transform: capitalize;
+}
+form{
+    padding: 2%;
+    margin: 2%;
+    font-size: 1em;
+    color: #777;
+    border: 1px solid #dc143c;
+    text-align: left;
+    background-color: rgba(255,100,100,0.4);
+    overflow: auto;
+}
+input:hover{
+    background-color: #DDD; /*makes it darker*/
+}
+input:focus{
+    background-color: #EEE; /*slightly lighter*/
+}
+.formleft{
+    float: left;
+    clear: left;
+    text-align: left;
+    width: 40%;
+    margin: 1%;
+    overflow: auto;
+}                           /*arranges them to maximize space efficiency*/
+.formright{
+    float: right;
+    clear:right;
+    text-align: center;
+    width: 40%;
+}
+div.lt{
+    text-align: left;       /*goes against default div with center text*/
+}
+.submit{
+    text-align: center;
+    width: 15%;
+    float: left;
+    clear: left;
+}
